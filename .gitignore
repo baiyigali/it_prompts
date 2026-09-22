@@ -1,0 +1,64 @@
+# ===== 环境 / 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+.python-version
+Pipfile.lock
+poetry.lock
+
+# ===== Python 缓存与构建 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# ===== Node / 前端 =====
+node_modules/
+.npm/
+.yarn/
+dist/
+.parcel-cache/
+
+# ===== 敏感配置（含 appid / secret）=====
+config.json
+config.local.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== 日志 / 临时文件 =====
+*.log
+*.tmp
+*.bak
+.cache/
+.tmp/
+
+# ===== 操作系统 =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
